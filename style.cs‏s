@@ -1,0 +1,41 @@
+body {
+  background-color: #121212;
+  color: #eee;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.artwork {
+  margin: 20px auto;
+  max-width: 500px;
+  border: 2px solid #444;
+  padding: 15px;
+  border-radius: 8px;
+  background: #222;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
